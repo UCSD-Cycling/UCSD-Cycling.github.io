@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCSD Cycling Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="./assets/ucsdCyclingLogo.png">
+</head>
+
+<body>
+    <!-- Top nav bar -->
+    <nav id="desktop-nav">
+        <div class="logo">UCSD Cycling</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#meetOurTeam">Meet Our Officers</a></li>
+                <li><a href="#eventCalendar">Calendar</a></li>
+                <li><a href="#routes">Routes</a></li>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side hamburger nav bar -->
+    <nav id="hamburger-nav">
+        <div class="logo">UCSD Cycling</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                <li><a href="#meetOurTeam" onclick="toggleMenu()">Meet Our Officers</a></li>
+                <li><a href="#eventCalendar" onclick="toggleMenu()">Event Calendar</a></li>
+                <li><a href="#routes" onclick="toggleMenu()">Routes</a></li>
+                <li><a href="#photos" onclick="toggleMenu()">Photos</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="event-calendar-container">
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23F6BF26&ctz=America%2FLos_Angeles&title=UCSD%20Cycling%20Calendar&showTabs=1&showPrint=1&showNav=1&src=dGhldWNzZGN5Y2xpbmd0ZWFtQGdtYWlsLmNvbQ&color=%23F6BF26" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#meetOurTeam">Meet Our Officers</a></li>
+                    <li><a href="#eventCalendar">Calendar</a></li>
+                    <li><a href="#routes">Routes</a></li>
+                    <li><a href="#photos">Photos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 UCSD Cycling. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
