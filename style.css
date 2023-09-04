@@ -188,10 +188,12 @@ section {
 
 .home__pic-container {
     display: flex;
+    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
-
+    height: 70vh;
 }
+
 .section__pic-container {
     display: flex;
     height: 400px;
