@@ -3,12 +3,10 @@
 /* From Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
 /* For entire page */
 * {
     margin: 0;
     padding: 0;
-    /* background-color: rgb(24, 43, 73); */
 
 }
 
@@ -75,8 +73,6 @@ a:hover {
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181, 181, 181);
 }
-
-
 
 .logo {
     font-size: 2rem;
@@ -186,10 +182,16 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
     height: 80vh;
 }
 
+
+.home__pic-container {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
 .section__pic-container {
     display: flex;
     height: 400px;
