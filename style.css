@@ -187,10 +187,10 @@ section {
 
 
 .home__pic-container {
-    display: flex;
-    justify-content: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
     height: 70vh;
 }
 
