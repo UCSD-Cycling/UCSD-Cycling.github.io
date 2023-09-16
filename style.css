@@ -383,4 +383,46 @@ footer {
 footer p {
     text-align: center;
     margin: 1rem;
+    position: relative;
+}
+
+/* Photos Page */
+#photos {
+    margin: 0;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 20px 0 20px;
+}
+
+.container .heading h3{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    border-bottom: 3px solid #222;
+    width: 50%;
+}
+
+.container .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .box .dream{
+    display: flex;
+    flex-direction: column;
+    width: 32.5%;
+}
+
+.container .box .dream img{
+    width: 100%;
+    padding-bottom: 15px;
 }
