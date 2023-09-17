@@ -63,10 +63,6 @@ a {
     color: white;
 }
 
-a.contact-info-box {
-    color: black
-}
-
 a:hover {
     color: grey;
     text-decoration: underline;
@@ -224,68 +220,13 @@ section {
     text-align: center;
 }
 
-#socials-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    gap: 1rem;
-}
-
 /* ICON */
 .icon {
     cursor: pointer;
     height: 2rem;
 }
 
-/* BUTTONS */
-.btn-container {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.btn {
-    font-weight: 600;
-    transition: all 300 ms ease;
-    padding: 1rem;
-    width: 8rem;
-    border-radius: 2rem;
-}
-
-.btn-color-1,
-.btn-color-2 {
-    border: rgb(53, 53, 53) 0.1rem solid;
-}
-
-.btn-color-1:hover,
-.btn-color-2:hover {
-    cursor: pointer;
-}
-
-.btn-color-1,
-.btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
-}
-
-.btn-color-1:hover {
-    background: rgb(0, 0, 0);
-}
-
-.btn-color-2 {
-    background: none;
-}
-
-.btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
-}
-
-.btn-container {
-    gap: 1rem;
-}
-
 /* ABOUT SECTION */
-
 #about {
     position: relative;
 }
@@ -316,16 +257,6 @@ section {
     position: absolute;
     right: 2.5rem;
     bottom: 2.5rem;
-}
-
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
 }
 
 .section-container {
@@ -372,6 +303,70 @@ section {
     color: black;
 }
 
+/* Meet Our Officers Page */
+#meetOurOfficers {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.officer-container {
+    margin: 20px 40px;
+}
+
+.heading {
+    font-size: 60px;
+    text-align: center;
+}
+
+.profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.profile {
+    flex-basis: 260px;
+    flex-direction: row;
+    
+}
+
+.profile .profile-img {
+    height: 260px;
+    width: 260px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.user-name {
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.profile h5 {
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color: gray;
+}
+
+.profile p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+/* Calendar Page*/
+#calendar {
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+
+.event-calendar-container {
+
+}
+
 /* FOOTER SECTION */
 
 footer {
@@ -386,43 +381,3 @@ footer p {
     position: relative;
 }
 
-/* Photos Page */
-#photos {
-    margin: 0;
-    padding-bottom: 1rem;
-    box-sizing: border-box;
-
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin: 40px 20px 0 20px;
-}
-
-.container .heading h3{
-    font-size: 3rem;
-    font-weight: bolder;
-    padding-bottom: 3px;
-    border-bottom: 3px solid #222;
-    width: 50%;
-}
-
-.container .box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.container .box .dream{
-    display: flex;
-    flex-direction: column;
-    width: 32.5%;
-}
-
-.container .box .dream img{
-    width: 100%;
-    padding-bottom: 15px;
-}
