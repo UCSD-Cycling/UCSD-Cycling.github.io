@@ -17,6 +17,7 @@
 
     #hamburger-nav {
         display: flex;
+        
     }
     
     #profile,
@@ -49,29 +50,53 @@
         margin-top: 0;
     }
 
-    .profiles {
+    .officer-profiles {
         flex-direction: column;
     }
 
-    .profile {
+    .officer-profile {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .profile p {
+    .officer-profile p {
         text-align: center;
         margin: 20px 60px 80px 60px;
         font-size: 20px;
     }
 
-    .contact-social-row {
-        flex-direction: column;;
+    #routes {
+        height: auto;
+    }
+    .routes-container-row {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+    .routes-container {
+        height: 300px;
+        width: 300px;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .routes-img {
+        height: 100%;
+        width: 100%;
+        cursor: pointer;
     }
 
     #contact-page {
         height: auto;
     }
+
+    .contact-social-row {
+        flex-direction: column;
+    }
+
 
     .contact-social {
         display: flex;
@@ -161,17 +186,27 @@
 
     .heading {
         font-size: 40px;
-        color: white;
         text-align: center;
     }
 
-    .profiles {
+    .officer-profiles {
         margin: 20px 0;
 
     }
 
-    .profile p {
+    .officer-profile p {
         margin: 20px 10px 80px 10px;
+    }
+
+    .photo-gallery-container {
+        margin: 0 20px 0 20px;
+    }
+
+    .photo-gallery-container .heading h3 {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom: 3px solid #222;        
     }
 
     .contact-social-row {
