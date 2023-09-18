@@ -21,7 +21,7 @@
     
     #profile,
     .section-container {
-        display: flex;
+        display: block;
     }
 
     .arrow {
@@ -36,17 +36,13 @@
     section {
         margin: 0 5%;
     }
-
-    .home__pic-container {
-        width: auto;
-        height: 600px;
-        justify-content: center;
-    }
+    
     
     .section__pic-container {
-        width: 275px;
-        height: 275px;
+        width: auto;
         margin: 0 auto 2rem;
+        justify-content: center;
+        text-align: center;
     }
 
     .about-containers {
@@ -96,14 +92,14 @@
         height: 40vh;
     }
 
-    #profile {
-        height: 83vh;
-        margin-bottom: 0;
+    section {
+        margin: 0;
     }
 
-    /* #article {
-        font-size: 1rem;
-    } */
+    #profile {
+        height: 50vh;
+        margin-bottom: 0;
+    }
 
     footer nav {
         height: fit-content;
@@ -114,6 +110,10 @@
     .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
+    }
+
+    .about-details-container {
+        margin: 20px 20px 20px 20px;
     }
 
     .contact-info-container {
@@ -139,6 +139,12 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+    } 
+
+    .about-pic {
+        border-radius: 2rem;   
+        height: 200px;
+        width: auto;
     }
 
     .section__text__p2 {
