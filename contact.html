@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UCSD Cycling Calendar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="./assets/ucsdCyclingLogo.png">
+</head>
+
+<body>
+    <!-- Top nav bar -->
+    <nav id="desktop-nav">
+        <div class="logo">UCSD Cycling</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="meetOurOfficers.html">Meet Our Officers</a></li>
+                <li><a href="calendar.html">Calendar</a></li>
+                <li><a href="routes.html">Routes</a></li>
+                <li><a href="photos.html">Photos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Side hamburger nav bar -->
+    <nav id="hamburger-nav">
+        <div class="logo">UCSD Cycling</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="index.html" onclick="toggleMenu()">Home</a></li>
+                <li><a href="meetOurOfficers.html" onclick="toggleMenu()">Meet Our Officers</a></li>
+                <li><a href="calendar.html" onclick="toggleMenu()">Calendar</a></li>
+                <li><a href="routes.html" onclick="toggleMenu()">Routes</a></li>
+                <li><a href="photos.html" onclick="toggleMenu()">Photos</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="contact-page">
+
+        <div class="contact-social-row">
+            <div class = "contact-social">
+                <i class="fa-brands fa-discord"></i>
+                <h5><a href="https://discord.gg/yE39SEPrkf" class="social-link">Discord</a></h5>
+                <p>Join our Discord channel to communicate with other team members.
+                </p>
+            </div>
+            <div class = "contact-social">
+                <i class="fa-brands fa-instagram"></i>
+                <h5><a href="https://www.instagram.com/ucsdcycling/" class="social-link">Instagram</a></h5>
+                <p>Follow us on Instagram to receive recaps of our team.
+                </p>
+            </div>
+            <div class = "contact-social">
+                <i class="fa-brands fa-strava"></i>
+                <h5><a href="https://www.strava.com/clubs/ucsd-cycling-team" class="social-link">Strava</a></h5>
+                <p>Join our Strava Club to see what rides other members are doing.
+                </p>
+            </div>
+            <div class = "contact-social">
+                <i class="fa-regular fa-envelope"></i>
+                <h5><a href="mailto:theucsdcyclingteam@gmail.com" class="social-link">Email</a></h5>
+                <p>Please email us for any questions.
+                </p>
+            </div>
+        </div>
+            
+
+
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="meetOurOfficers.html">Meet Our Officers</a></li>
+                    <li><a href="calendar.html">Calendar</a></li>
+                    <li><a href="routes.html">Routes</a></li>
+                    <li><a href="photos.html">Photos</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 UCSD Cycling. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/aecdc8ec49.js" crossorigin="anonymous"></script>
+</body>
+</html>

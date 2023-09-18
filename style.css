@@ -310,7 +310,7 @@ section {
     height: auto;
 }
 
-.officer-container {
+.page-title-container {
     margin: 20px 40px;
 }
 
@@ -328,7 +328,6 @@ section {
 .profile {
     flex-basis: 260px;
     flex-direction: row;
-    
 }
 
 .profile .profile-img {
@@ -359,13 +358,54 @@ section {
 /* Calendar Page*/
 #calendar {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    height: 80vh;
+    text-align: center;
+
 }
 
 .event-calendar-container {
-
+    margin: auto;
 }
+
+/* Contact Page */
+#contact-page {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.contact-social-row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+
+.contact-social {
+    flex-basis: 260px;
+    flex-direction: row;
+    margin-top: 30px;
+    font-size: 35px;
+}
+
+.contact-social p {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.social-link {
+    color: black;
+    font: bold;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
 
 /* FOOTER SECTION */
 
