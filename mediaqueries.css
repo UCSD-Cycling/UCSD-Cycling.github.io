@@ -54,7 +54,7 @@
     }
 
     .profiles {
-        flex-direction: column;;
+        flex-direction: column;
     }
 
     .profile {
@@ -64,6 +64,26 @@
     }
 
     .profile p {
+        text-align: center;
+        margin: 20px 60px 80px 60px;
+        font-size: 20px;
+    }
+
+    .contact-social-row {
+        flex-direction: column;;
+    }
+
+    #contact-page {
+        height: auto;
+    }
+
+    .contact-social {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-social p {
         text-align: center;
         margin: 20px 60px 80px 60px;
         font-size: 20px;
@@ -81,9 +101,9 @@
         margin-bottom: 0;
     }
 
-    #article {
+    /* #article {
         font-size: 1rem;
-    }
+    } */
 
     footer nav {
         height: fit-content;
@@ -103,10 +123,6 @@
     .contact-info-container p, 
     .nav-links li a {
         font-size: 1rem;
-    }
-
-    .experience-sub-title {
-        font-size: 1.25rem;
     }
 
     .logo {
@@ -149,6 +165,15 @@
     }
 
     .profile p {
+        margin: 20px 10px 80px 10px;
+    }
+
+    .contact-social-row {
+        margin: 20px 0;
+
+    }
+
+    .contact-social p {
         margin: 20px 10px 80px 10px;
     }
 
