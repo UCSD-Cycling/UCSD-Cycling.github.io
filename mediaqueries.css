@@ -38,7 +38,6 @@
         margin: 0 5%;
     }
     
-    
     .section__pic-container {
         width: auto;
         margin: 0 auto 2rem;
@@ -64,6 +63,11 @@
         text-align: center;
         margin: 20px 60px 80px 60px;
         font-size: 20px;
+    }
+
+    .event-calendar-container {
+        margin: 0 auto 30px auto;
+        width: 600px;
     }
 
     #routes {
@@ -96,7 +100,6 @@
     .contact-social-row {
         flex-direction: column;
     }
-
 
     .contact-social {
         display: flex;
@@ -186,7 +189,6 @@
 
     .heading {
         font-size: 40px;
-        text-align: center;
     }
 
     .officer-profiles {
@@ -196,6 +198,12 @@
 
     .officer-profile p {
         margin: 20px 10px 80px 10px;
+    }
+
+    .event-calendar-container {
+        margin: 0 auto 30px auto;
+        width: 250px;
+        
     }
 
     .photo-gallery-container {

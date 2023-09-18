@@ -87,6 +87,7 @@ a:hover {
 .hamburger-menu {
     position: relative;
     display: inline-block;
+    z-index: 999;
 }
 
 .hamburger-icon {
@@ -365,11 +366,13 @@ section {
     flex-direction: column;
     justify-content: center;
     text-align: center;
-
+    height: auto;
 }
 
 .event-calendar-container {
-    margin: auto;
+    margin: 0 auto 30px auto;
+    width: 800px;
+    border: solid;
 }
 
 /* Routes Page */
@@ -398,6 +401,7 @@ section {
     height: 100%;
     width: 100%;
     cursor: pointer;
+    border-radius: 3px;
 }
 
 .routes-overlay {
